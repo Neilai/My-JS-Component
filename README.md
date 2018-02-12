@@ -28,3 +28,21 @@ size表示大小，isRange表示是否能选择一个范围，limitRange表示�
 ```
 
 size表示大小，speeds表示滑动速度，times表示切图速度，autoplay表示是否自动播放
+
+### 滑动条
+
+```html
+<div class="scrollbar" style="width:160px;height:100px">
+    <div class="content">
+          <p>填充内容填充内容填充内容填充内容填充内容填充内容
+              填充内容填充内容填充内容填充内容填充内容填充内容
+              填充内容填充内容填充内容填充内容填充内容填充内容
+              填充内容填充内容填充内容填充内容填充内容填充内容
+              填充内容填充内容填充内容填充内容填充内容填充内容
+              填充内容填充内容填充内容填充内容填充内容填充内容</p>
+        </div>
+</div>
+<script type="text/javascript" src="./scrollbar.js"></script>
+```
+
+只要指定scrobar的width和height，在content的div中填充内容，会自动生成滚动条。
