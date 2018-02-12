@@ -7,7 +7,7 @@
 <link rel="stylesheet" type="text/css" href="./cssreset-min.css">
 ```
 
-###日历
+### 日历
 
 ```html
 <script type="text/javascript" src="./calendar.js" ></script>
