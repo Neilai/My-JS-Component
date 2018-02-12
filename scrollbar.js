@@ -56,7 +56,6 @@
                 self.isMouseDown=true;
                 self._track_offset =  self.offset(self.$track).top ;
                 self._cursor_position = e.pageY-self._track_offset-self.$thumb.offsetTop;
-                self.setSelectable(self.$body,false);
             }, false);
             this.$document.addEventListener('mousemove', function(e) {
                 if(self.isMouseDown){
@@ -71,7 +70,6 @@
             this.$document.addEventListener('mouseup', function(e) {
                 self.isMouseDown=false;
                 self._cursor_position=0;
-                self.setSelectable(self.$body,true);
             }, false);
             this.$this.addEventListener('DOMMouseScroll',function(e){
                 e = e||window.event;
@@ -159,18 +157,6 @@
                 this.$content.style['top']=-move+"px";
             }
             this.setValue(move/this._room);
-        },
-        setSelectable:function (obj, enabled) {
-            //console.log(obj)
-            if (enabled) {
-                obj.removeAttribute("unselectable");
-                obj.removeAttribute("onselectstart");
-                obj.style.webkitUserSelect="";
-            } else {
-                obj.setAttribute("unselectable", "on");
-                obj.setAttribute("onselectstart", "return false;");
-                obj.style.webkitUserSelect="none";
-            }
         },
         getStyle:function (obj, attr) {
             if (obj.currentStyle) {
