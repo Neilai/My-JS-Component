@@ -1,8 +1,6 @@
 # My-JS-Component
 我个人的原生JS组件库，所有组件都由class指定，由data-param传入组件参数，由data-value返回数据
 
-整个组件的封装是在完全阅读 @huanghanzhilian 封装的组件源码（关于源码，我也有一些笔记在https://laijingzhi.com上）后，按照自己的爱好和需求进行的封装，以达到更好更快引用组件的目的。
-
 ## 使用方法
 
 所有组件在使用前必须重置css
@@ -80,3 +78,36 @@ size表示大小，min，max分别表示最大最小范围，value表示初始�
 ```
 
 format表示显示的格式(用于非秒倒计时)，starttime和endtime指开始和结束时间，interval表示倒计时间隔
+
+### 自动上滚
+
+```html
+<div class="scrollup">
+    <div class="scrollup-content">
+        <div class="scrollup-list">list-1</div>
+        <div class="scrollup-list">list-2</div>
+        <div class="scrollup-list">list-3</div>
+        <div class="scrollup-list">list-4</div>
+        <div class="scrollup-list">list-5</div>
+        <div class="scrollup-list">list-6</div>
+        <div class="scrollup-list">list-7</div>
+        <div class="scrollup-list">list-8</div>
+        <div class="scrollup-list">list-9</div>
+    </div>
+</div>
+<script type="text/javascript" src="./scrollup.js"></script>
+```
+
+在scrrollup-list填充需要上滚的元素，长度和宽度可以自己设定。
+
+```css
+        .scrollup{
+            width: 240px;
+            height: 140px;
+        }
+        .scrollup-list{
+            height: 24px;
+            line-height: 24px;
+        }
+```
+
