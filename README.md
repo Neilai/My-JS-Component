@@ -1,6 +1,8 @@
 # My-JS-Component
 我个人的原生JS组件库，所有组件都由class指定，由data-param传入组件参数，由data-value返回数据
 
+## 使用方法
+
 所有组件在使用前必须重置css
 
 ```html
@@ -67,3 +69,12 @@ size表示大小，min，max分别表示最大最小范围，value表示初始�
 ```
 
 只要指定 accordionlist的长度与宽度，expose表示折叠组件暴露宽度，direction表示方向，speed表示动画速度
+
+### 倒计时
+
+```html
+<div class="countdown" data-param={"format":"hh:mm:ss","interval":1000,"starttime":10,"endtime":0}></div>
+<script src="countdown.js" type="text/javascript"></script>
+```
+
+format表示显示的格式(用于非秒倒计时)，starttime和endtime指开始和结束时间，interval表示倒计时间隔
