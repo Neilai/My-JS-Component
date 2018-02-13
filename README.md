@@ -29,7 +29,7 @@ size表示大小，isRange表示是否能选择一个范围，limitRange表示�
 
 size表示大小，speeds表示滑动速度，times表示切图速度，autoplay表示是否自动播放
 
-### 滑动条
+### 滚动条
 
 ```html
 <div class="scrollbar" style="width:160px;height:100px">
@@ -45,4 +45,25 @@ size表示大小，speeds表示滑动速度，times表示切图速度，autoplay
 <script type="text/javascript" src="./scrollbar.js"></script>
 ```
 
-只要指定scrobar的width和height，在content的div中填充内容，会自动生成滚动条。
+只要指定scrobar的width和height，在content的div中填充内容，就会自动生成滚动条。
+
+### 滑动条
+
+```html
+<div class="range" data-param={"size":1,"min":0,"max":100,"value":50}></div>
+<script type="text/javascript" src="./range.js">
+```
+
+size表示大小，min，max分别表示最大最小范围，value表示初始值
+
+### 手风琴
+
+```html
+<div class="accordion" data-param={"expose":30,"speed":30,"direction":"x"}>
+        <img src="1.jpg" class="accordion-list">
+        <img src="2.jpg" class="accordion-list">
+        <img src="3.jpg" class="accordion-list">
+</div>
+```
+
+只要指定 accordionlist的长度与宽度，expose表示折叠组件暴露宽度，direction表示方向，speed表示动画速度

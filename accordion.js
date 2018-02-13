@@ -18,6 +18,7 @@
                     this.opts[w] = defaults[w];
                 }
             }
+            this.setValue(1);
             this.$list = this.$this.querySelectorAll(".accordion-list");
             this.exposeSize = this.opts.expose;
             if(this.opts.direction=='x'){
@@ -60,6 +61,7 @@
                             }
                             //左边距减小， 减小translate长度
                             self.startmove(self.$list[j],{[self.direction]:parseInt(self.$list[j].style[self.direction]) - self.translate},self.opts.speed)
+                            self.setValue(j+1);
                         }
                     } ,false);
                 })(i)
@@ -120,6 +122,9 @@
                 return getComputedStyle(obj, false)[attr];
             }
         },
+        setValue:function(value){
+            this.$this.setAttribute("data-value",value)
+        }
     }
     ele=document.querySelector(".accordion")
     var accordion=Object.create(widget);
