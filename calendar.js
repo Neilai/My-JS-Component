@@ -18,7 +18,6 @@
                     this.opts[w] = defaults[w];
                 }
             }
-            console.log(this.opts.limitRange);
             this.$this.innerHTML='<table>\
                 <caption>\
                     <a class="prevYear" href="javascript:;">&lt;&lt;</a>\
