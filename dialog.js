@@ -53,7 +53,21 @@
                 self.$this.style.display="none";
                 self.$overlay.style.display="none";
             }, false)
-        }
+        },
+        setStyle:function () {
+            var style=document.createElement("style")
+            style.type="text/css"
+            text=document.createTextNode(" .dialog{background:#fff;z-index: 110;width: 320px;height: 200px;position: fixed;margin:auto;left:0;top:0;right:0;bottom: 0;}" +
+                ".dialog-title{height:40px;padding-left:8px;background:#cee1ee;line-height:40px;}" +
+                ".dialog-content{height:100px;padding:10px;line-height:100px;text-align:center;}" +
+                ".dialog-buttons{height:40px;padding:0 20px;line-height:40px;text-align:right;}" +
+                ".dialog-buttons button{width:80px;height:22px;border:none;line-height:22px;background:#cee1ee;outline:none;cursor:pointer;}" +
+                ".dialog-close{position:absolute;top:0;right:0;width:40px;height:40px;line-height:40px;text-align:center;cursor:pointer;}" +
+                ".dialog-overlay{position:fixed;width: 100%;height:100%;top:0;right:0;z-index: 100;background: rgba(0,0,0,0.3);bottom: 0;left: 0;}");
+            style.appendChild(text);
+            var head=document.getElementsByTagName("head")[0];
+            head.appendChild(style);
+        },
     };
     ele=document.querySelector(".dialog");
     var dialog=Object.create(widget);
@@ -61,6 +75,7 @@
         this.init(ele);
         this.renderDom();
         this.setEvent();
+        this.setStyle();
     };
     dialog.setup();
 })()
