@@ -59,7 +59,7 @@
             }, false);
             this.$document.addEventListener('mousemove', function(e) {
                 if(self.isMouseDown){
-                    console.log(1);
+                    // console.log(1);
                     var move = e.pageY - self._track_offset;
                     if (self._cursor_position > 0 && self._cursor_position < self._thumb_length) {
                         move -= self._cursor_position;
