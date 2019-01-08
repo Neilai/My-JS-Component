@@ -1,1 +1,21 @@
-div{border:1px solid red}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+button.magic {
+  font-size: var(--font-size);
+  height: var(--button-height);
+  padding: 0 0.8em;
+  border-radius: var(--border-radius);
+  border: 1px solid var(--border-color);
+  background: var(--button-bg);
+  display: inline-flex; justify-content: center; align-items: center;
+  vertical-align: middle;
+  &:hover { border-color: var(--border-color-hover); }
+  &:active { background-color: var(--button-active-bg); }
+  &:focus { outline: none; }
+  > .icon { width:1em;height:1em;margin: 0  .2em ; }
+  .loading {
+    animation: spin 2s infinite linear;
+  }
+}
