@@ -4,6 +4,9 @@
  */
 import './src/button/button.scss'
 import './src/button/button.js'
+import './src/input/input.scss'
+import './src/toast/toast.js'
+import './src/toast/toast.scss'
 require('./index.html')
 
 
