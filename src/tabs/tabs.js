@@ -11,7 +11,7 @@ class Tabs{
         this.currentIndex=0
         this.createLine()
         this.addEvent()
-        this.updateStyle(this.currentIndex)
+        this.updateStyle()
     }
     createLine(){
         this.$line=document.createElement("div")
@@ -44,6 +44,10 @@ class Tabs{
                 this.updateStyle()
             })
         })
+    }
+    select(index){
+        this.currentIndex=index
+        this.updateStyle()
     }
 }
 window.Tabs=Tabs
