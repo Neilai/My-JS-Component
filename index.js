@@ -12,6 +12,8 @@ import './src/tabs/tabs.js'
 import './src/tabs/tabs.scss'
 import './src/collapse/collapse.js'
 import './src/collapse/collapse.scss'
+import './src/popover/popover.js'
+import './src/popover/popover.scss'
 require('./index.html')
 
 
