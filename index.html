@@ -50,7 +50,11 @@
         <!--<div class="content">hhh</div>-->
     <!--</div>-->
 <!--</div>-->
-<!--<button style="margin-left: 100px;margin-top: 100px">点我</button>-->
+<!--<button id="a" style="margin-left: 100px;margin-top: 100px">点我</button>-->
+<!--<button id="b" style="margin-left: 200px;margin-top: 200px">点我</button>-->
+<div class="cascader" style="margin-top: 100px;margin-left: 100px">
+
+</div>
 </body>
 <script>
 //    let x=new Toast({})
@@ -59,8 +63,49 @@
 
 //let x=new Collapse(".magic.collapse",{"single":true})
 //    x.select([0,1,2])
-//let x=new Popover("button",{})
-//    x.show()
+//let x=new Popover("#a",{})
+//let y=new Popover("#b",{})\
+source=[
+    {
+        name: "浙江",
+        children: [
+            {
+                name: "杭州",
+                children: [{name: "上城"}, {name: "下城"}, {name: "江干"}]
+            },
+            {
+                name: "嘉兴",
+                children: [{name: "南湖"}, {name: "秀洲"}, {name: "嘉善"}]
+            }
+        ]
+    },
+    {
+        name: "福建",
+        children: [
+            {
+                name: "福州",
+                children: [{name: "鼓楼"}, {name: "台江"}, {name: "仓山"}]
+            }
+        ]
+    },
+    {
+        name: "安徽",
+        children: [
+            {
+                name: "合肥",
+                children: [
+                    {
+                        name: "瑶海"
+                    },
+                    {
+                        name: "庐阳"
+                    }
+                ]
+            }
+        ]
+    }
+]
+    let x=new Cascader(".cascader",{"source":source})
 </script>
 
 </html>

@@ -14,6 +14,8 @@ import './src/collapse/collapse.js'
 import './src/collapse/collapse.scss'
 import './src/popover/popover.js'
 import './src/popover/popover.scss'
+import './src/cascader/cascader.js'
+import './src/cascader/cascader.scss'
 require('./index.html')
 
 

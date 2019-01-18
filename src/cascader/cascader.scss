@@ -1,0 +1,38 @@
+@import "../var";
+.cascader {
+  position: relative;
+  .trigger {
+    height: $input-height;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 1em;
+    min-width: 10em;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+  }
+  .popover-wrapper {
+    position: absolute; top: 100%; left: 0; background: white; display: flex;
+    margin-top: 8px;
+    @extend .box-shadow;
+    .cascaderItem {
+
+      .left {
+        height: 100%;
+        padding: .3em 0;
+      }
+      .right {
+        height: 100%;
+        border-left: 1px solid $border-color-light;
+      }
+      .label {
+        padding: .3em 1em;
+        display: flex;
+        align-items: center;
+        .icon {
+          margin-left: 1em;
+          transform: scale(0.5);
+        }
+      }
+    }
+  }
+}
