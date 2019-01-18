@@ -15,20 +15,17 @@
     margin-top: 8px;
     @extend .box-shadow;
     .cascaderItem {
-
-      .left {
-        height: 100%;
-        padding: .3em 0;
-      }
-      .right {
-        height: 100%;
-        border-left: 1px solid $border-color-light;
+      border-left: 1px solid $border-color-light;
+      &:first-child{
+        border-left: none;
       }
       .label {
         padding: .3em 1em;
         display: flex;
         align-items: center;
         .icon {
+          width: 1.5em;
+          height: 1.5em;
           margin-left: 1em;
           transform: scale(0.5);
         }

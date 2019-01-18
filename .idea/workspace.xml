@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64c743c8-af4c-48f7-a802-8ee4c4c7b386" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cascader/cascader.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/cascader/cascader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/var.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/svg.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/button/icon.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/button/button.js" afterPath="$PROJECT_DIR$/src/button/button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cascader/cascader.js" afterPath="$PROJECT_DIR$/src/cascader/cascader.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cascader/cascader.scss" afterPath="$PROJECT_DIR$/src/cascader/cascader.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.html" afterPath="$PROJECT_DIR$/test.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,6 +50,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="59">
+              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
@@ -59,20 +70,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/input/input.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="var.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/var.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="540">
               <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
               <folding />
             </state>
@@ -82,11 +83,29 @@
       <file leaf-file-name="cascader.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/cascader/cascader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
-              <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+            <state relative-caret-position="510">
+              <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
               <folding>
-                <element signature="n#!!doc;n#Cascader#0" expanded="false" />
+                <element signature="n#!!block;n#createTrigger#0;n#Cascader#0" expanded="false" />
+                <element signature="e#664#1050#0" expanded="false" />
+                <element signature="n#!!block;n#updateStyle#0;n#Cascader#0" expanded="false" />
+                <element signature="e#1175#1627#0" expanded="false" />
                 <element signature="n#!!block;n#close#0;n#Cascader#0" expanded="false" />
+                <element signature="n#!!block;n#findPath#0;n#Cascader#0" expanded="false" />
+                <element signature="n#!!block;n#createCascaderItem#0;n#Cascader#0" expanded="false" />
+                <marker date="1547803107649" expanded="true" signature="3029:3109" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="svg.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/svg.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="9860" lean-forward="false" selection-start-line="0" selection-start-column="9860" selection-end-line="0" selection-end-column="9860" />
+              <folding>
+                <element signature="e#9860#9906#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -95,8 +114,8 @@
       <file leaf-file-name="cascader.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/cascader/cascader.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="570">
+              <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -108,21 +127,7 @@
             <state relative-caret-position="150">
               <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
-                <element signature="n#Popover#0" expanded="false" />
                 <element signature="n#!!block;n#createPopver#0;n#Popover#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="popover.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/popover/popover.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="960">
-              <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-              <folding>
-                <element signature="e#543#860#0" expanded="false" />
-                <element signature="e#881#1169#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -131,11 +136,10 @@
       <file leaf-file-name="button.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/button/button.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="221">
+              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="n#!!block;n#createSvg#0;n#Button#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -153,8 +157,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bannerha</find>
-      <find>timers</find>
       <find>conso</find>
       <find>se</find>
       <find>stops</find>
@@ -183,6 +185,8 @@
       <find>tabs.tabsHead</find>
       <find>remove</find>
       <find>createcas</find>
+      <find>if(this.selected)</find>
+      <find>log</find>
     </findStrings>
     <replaceStrings>
       <replace>slider</replace>
@@ -231,9 +235,7 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/src/button/icon.js" />
-        <option value="$PROJECT_DIR$/src/button/button.js" />
         <option value="$PROJECT_DIR$/src/button/button-group.js" />
         <option value="$PROJECT_DIR$/src/button/button.scss" />
         <option value="$PROJECT_DIR$/src/input/input.js" />
@@ -251,8 +253,11 @@
         <option value="$PROJECT_DIR$/src/popover/popover.js" />
         <option value="$PROJECT_DIR$/src/var.scss" />
         <option value="$PROJECT_DIR$/index.js" />
-        <option value="$PROJECT_DIR$/src/cascader/cascader.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/svg.js" />
+        <option value="$PROJECT_DIR$/src/button/button.js" />
+        <option value="$PROJECT_DIR$/src/cascader/cascader.scss" />
+        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/src/cascader/cascader.js" />
       </list>
     </option>
@@ -315,6 +320,60 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-JS-Component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-JS-Component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="popover" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-JS-Component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-JS-Component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cascader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-JS-Component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-JS-Component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="button" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -463,7 +522,7 @@
       <workItem from="1546929943091" duration="55206000" />
       <workItem from="1547525339166" duration="243000" />
       <workItem from="1547644999684" duration="333000" />
-      <workItem from="1547728970306" duration="20245000" />
+      <workItem from="1547728970306" duration="25664000" />
     </task>
     <task id="LOCAL-00001" summary="添加日历组件">
       <created>1518331534661</created>
@@ -560,7 +619,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183226000" />
+    <option name="totallyTimeSpent" value="188645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -653,13 +712,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cssreset-min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
@@ -836,13 +888,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/accordion.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="549">
@@ -952,40 +997,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/popover/popover.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="n#Popover#0" expanded="false" />
-            <element signature="n#!!block;n#createPopver#0;n#Popover#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/button/button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="29" column="35" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#!!block;n#createSvg#0;n#Button#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/input/input.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/var.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -1008,11 +1023,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/var.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="22" column="1" lean-forward="false" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/svg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9860" lean-forward="false" selection-start-line="0" selection-start-column="9860" selection-end-line="0" selection-end-column="9860" />
+          <folding>
+            <element signature="e#9860#9906#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/button/button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cascader/cascader.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="570">
+          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/popover/popover.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!block;n#createPopver#0;n#Popover#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1029,13 +1082,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/cascader/cascader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="61" column="32" lean-forward="false" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+        <state relative-caret-position="510">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
           <folding>
-            <element signature="n#!!doc;n#Cascader#0" expanded="false" />
+            <element signature="n#!!block;n#createTrigger#0;n#Cascader#0" expanded="false" />
+            <element signature="e#664#1050#0" expanded="false" />
+            <element signature="n#!!block;n#updateStyle#0;n#Cascader#0" expanded="false" />
+            <element signature="e#1175#1627#0" expanded="false" />
             <element signature="n#!!block;n#close#0;n#Cascader#0" expanded="false" />
+            <element signature="n#!!block;n#findPath#0;n#Cascader#0" expanded="false" />
+            <element signature="n#!!block;n#createCascaderItem#0;n#Cascader#0" expanded="false" />
+            <marker date="1547803107649" expanded="true" signature="3029:3109" ph="..." />
           </folding>
         </state>
       </provider>

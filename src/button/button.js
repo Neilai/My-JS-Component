@@ -2,7 +2,7 @@
  * Created by Neil
  * 2019-01-08 15:04
  */
-import "./icon.js"
+import "../svg.js"
 class Button{
     constructor(selector,arg){
         this.ele=document.querySelector(selector)

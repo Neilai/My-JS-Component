@@ -2,6 +2,7 @@
  * Created by Neil
  * 2019-01-17 21:34
  */
+import '../svg.js'
 class Cascader{
     constructor(selector,arg){
         this.$ele=document.querySelector(selector)
@@ -9,26 +10,43 @@ class Cascader{
         this.height=arg["height"]||200
         this.selected=[]
         this.selectedNames=[]
+        this.onClickDocument=this.onClickHandler.bind(this)
         this.createTrigger()
+    }
+    onClickHandler(e){
+        this.selected=[]
+        this.selectedName=[]
+        this.updateStyle()
     }
     createTrigger(){
         this.$trigger=document.createElement("div")
         this.$trigger.className="trigger"
-        this.$trigger.addEventListener("click",()=>{
-            this.selected.push(this.source)
+        this.$trigger.addEventListener("click",(e)=>{
+            e.stopPropagation()
+            if(this.selected.length){
+                this.selected=[]
+                document.removeEventListener("click",this.onClickDocument)
+            }
+            else{
+                document.addEventListener("click",this.onClickDocument)
+                this.selected.push(this.source)
+            }
             this.updateStyle()
         })
         this.$ele.appendChild(this.$trigger)
     }
     updateStyle(){
         this.close()
-        if(this.selected){
-            let popoverWrapper=document.createElement("div")
-            popoverWrapper.className="popover-wrapper"
+        if(this.selected.length){
+            this.$popoverWrapper=document.createElement("div")
+            this.$popoverWrapper.className="popover-wrapper"
             this.selected.forEach((item,index)=>{
-                popoverWrapper.appendChild(this.createCascaderItem(item))
+                this.$popoverWrapper.appendChild(this.createCascaderItem(item))
             })
-            this.$ele.appendChild(popoverWrapper)
+            this.$popoverWrapper.addEventListener("click",(e)=>{
+                e.stopPropagation()
+            })
+            this.$ele.appendChild(this.$popoverWrapper)
         }
         this.$trigger.innerHTML=this.selectedNames.join("/")
     }
@@ -59,7 +77,6 @@ class Cascader{
             return undefined
         }
         dfs(this.source)
-        console.log(this.selectedNames);
     }
     createCascaderItem(items){
         let cascaderItem=document.createElement("div")
@@ -70,13 +87,14 @@ class Cascader{
             label.className="label"
             label.innerHTML=item.name
             if(item.children){
-                label.innerHTML+=`<icon class="icon"  name="right"></icon>`
+                label.innerHTML+=`<svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-arrow"></use>
+                </svg>`
             }
             label.addEventListener("click",()=>{
-
                     this.findPath(item)
                     this.updateStyle()
-
+                    if(!item.children) this.close()
             })
             cascaderItem.appendChild(label)
         })
