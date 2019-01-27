@@ -1,5 +1,6 @@
 @import "../var";
 .nav {
+  background: white;
   cursor: pointer;
   display: flex;
   position: relative;
@@ -16,6 +17,7 @@
   }
 }
 .sub-nav-label:hover{
+  z-index:1;
   color: $color;
   background: $grey;
 }
@@ -26,8 +28,8 @@
   &-label { padding: 10px 20px; display: block; }
   &>.sub-nav-label>.icon { display: none; }
   &-popover {
-    z-index: 0;
-    //display: none;
+    z-index: -1;
+    display: none;
     background: white;
     position: absolute;
     top: 100%;

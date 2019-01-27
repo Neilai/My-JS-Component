@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64c743c8-af4c-48f7-a802-8ee4c4c7b386" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nav/nav.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/nav/nav.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cascader/cascader.js" afterPath="$PROJECT_DIR$/src/cascader/cascader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/cascader/cascader.scss" afterPath="$PROJECT_DIR$/src/cascader/cascader.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/nav/nav.scss" afterPath="$PROJECT_DIR$/src/nav/nav.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -51,8 +45,8 @@
       <file leaf-file-name="nav.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/nav/nav.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            <state relative-caret-position="120">
+              <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -528,7 +522,7 @@
       <workItem from="1546929943091" duration="55206000" />
       <workItem from="1547525339166" duration="243000" />
       <workItem from="1547644999684" duration="333000" />
-      <workItem from="1547728970306" duration="43108000" />
+      <workItem from="1547728970306" duration="43753000" />
     </task>
     <task id="LOCAL-00001" summary="添加日历组件">
       <created>1518331534661</created>
@@ -625,7 +619,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="206089000" />
+    <option name="totallyTimeSpent" value="206734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -1115,8 +1109,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/nav/nav.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        <state relative-caret-position="120">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding />
         </state>
       </provider>
