@@ -1,6 +1,7 @@
 @import "../var";
 .cascader {
   position: relative;
+  cursor: pointer;
   .trigger {
     height: $input-height;
     display: inline-flex;

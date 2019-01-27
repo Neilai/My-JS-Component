@@ -94,7 +94,10 @@ class Cascader{
             label.addEventListener("click",()=>{
                     this.findPath(item)
                     this.updateStyle()
-                    if(!item.children) this.close()
+                    if(!item.children) {
+                        this.selected=[]
+                        this.close()
+                    }
             })
             cascaderItem.appendChild(label)
         })

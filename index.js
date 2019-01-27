@@ -16,6 +16,8 @@ import './src/popover/popover.js'
 import './src/popover/popover.scss'
 import './src/cascader/cascader.js'
 import './src/cascader/cascader.scss'
+import  './src/nav/nav.scss'
+import  './src/nav/nav.js'
 require('./index.html')
 
 
