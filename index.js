@@ -18,6 +18,8 @@ import './src/cascader/cascader.js'
 import './src/cascader/cascader.scss'
 import  './src/nav/nav.scss'
 import  './src/nav/nav.js'
+import  './src/sticky/sticky.js'
+import  './src/sticky/sticky.scss'
 require('./index.html')
 
 
