@@ -79,7 +79,6 @@
             }
 
             this.$prevBtn.addEventListener('click', function(e) {
-                console.log(123);
                 self.go(self.imgW);
                 self.showBtn();
             }, false);

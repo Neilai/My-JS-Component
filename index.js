@@ -20,6 +20,8 @@ import  './src/nav/nav.scss'
 import  './src/nav/nav.js'
 import  './src/sticky/sticky.js'
 import  './src/sticky/sticky.scss'
+import  './src/carousel/carousel.scss'
+import  './src/carousel/carousel.js'
 require('./index.html')
 
 
