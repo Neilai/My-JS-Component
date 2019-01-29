@@ -60,9 +60,9 @@
                 obj = this._today;
             }
             this._day = this.getDateObj(obj['year'], obj['month'], 1);  //当月第一天
-            var days = this.getMonthDays(this._day); //当月天数
-            var data = []; //日历信息
-            var obj = {};
+            var days  = this.getMonthDays(this._day); //当月天数
+            var data  = []; //日历信息
+            var obj   = {};
             //上月日期
             for (var i = this._day['week']; i > 0; i--) {
                 obj = this.getDateObj(this._day['year'], this._day['month'],this._day['day'] - i);
@@ -106,9 +106,7 @@
                 'day': date.getDate(),
                 'week': date.getDay()
             };
-            obj['code'] = '' + obj['year'] +
-                (obj['month'] > 9 ? obj['month'] : '0' + obj['month'])
-                + (obj['day'] > 9 ? obj['day'] : '0' + obj['day']);
+            obj['code'] = '' + obj['year'] + (obj['month'] > 9 ? obj['month'] : '0' + obj['month']) + (obj['day'] > 9 ? obj['day'] : '0' + obj['day']);
             return obj;
         },
         getDateInfo: function(obj) {
@@ -117,7 +115,6 @@
                 for (var i = 0; i < this.opts.limitRange.length; i++) {
                     var start = this.opts.limitRange[0];
                     var end = this.opts.limitRange[1];
-
                     if (start == 'today') {
                         start = this._today['code'];
                     }

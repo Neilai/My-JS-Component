@@ -1,0 +1,54 @@
+.calendar {
+  font-size: 16px;
+  border: solid 2px deepskyblue;
+  margin: auto auto;
+  width: 350px;
+}
+
+.calendar caption {
+  line-height: 30px;
+  text-align: center;
+  border-bottom: 1px solid #ebebeb;
+  margin-bottom: 5px;
+}
+
+.calendar td span {
+  display: block;
+  width: 30px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.calendar caption a {
+  color: #666;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.calendar table {
+  width: 100%;
+}
+
+.calendar td, .calendar th {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.calendar .back {
+  float: right;
+}
+
+.calendar .calendar-today span {
+  font-weight: bold;
+}
+
+.calendar .calendar-disabled span {
+  color: #999;
+}
+
+.calendar .calendar-active span {
+  background: #39c;
+  color: #fff;
+  border-radius: 30px;
+}

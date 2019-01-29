@@ -22,6 +22,8 @@ import  './src/sticky/sticky.js'
 import  './src/sticky/sticky.scss'
 import  './src/carousel/carousel.scss'
 import  './src/carousel/carousel.js'
+import  './src/calendar/calendar.js'
+import  './src/calendar/calendar.scss'
 require('./index.html')
 
 
