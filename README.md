@@ -2,18 +2,32 @@
 这是一个原生JS组件库，当前进度 ：
 
 - [x] button
+
 - [x] collapse
+
 - [x] tab
+
 - [x] popover
+
 - [x] nav
+
 - [x] toast
+
 - [x] cascader
+
 - [x] calendar
+
 - [x] sticky
+
 - [x] countdown
+
 - [ ] range
+
 - [ ] scroll
+
 - [ ] 单元测试
+
+  持续施工中.....
 
 ## 为什么要用原生JS
 
