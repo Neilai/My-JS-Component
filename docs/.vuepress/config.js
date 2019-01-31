@@ -17,7 +17,9 @@ module.exports = {
                     '/components/popover',
                     '/components/nav',
                     '/components/toast',
-                    '/components/cascader'
+                    '/components/cascader',
+                    '/components/calendar',
+                    '/components/carousel',
                 ]
             },
         ]
