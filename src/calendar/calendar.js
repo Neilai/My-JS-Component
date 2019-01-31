@@ -39,7 +39,7 @@ class Calendar{
         this.addEvent()
     }
     render(){
-        console.log(this.value());
+        //依据range更新
         for (var i = 0; i < this.data.length; i++) {
             var d =this.data[i];
             if (d['status'] == 'active') {

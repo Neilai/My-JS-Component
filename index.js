@@ -24,6 +24,7 @@ import  './src/carousel/carousel.scss'
 import  './src/carousel/carousel.js'
 import  './src/calendar/calendar.js'
 import  './src/calendar/calendar.scss'
+import './src/countdown/countdown.js'
 require('./index.html')
 
 

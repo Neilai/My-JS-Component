@@ -9,8 +9,8 @@
             var defaults = {
                 'format': 'hh:mm:ss',
                 'interval': 1000,
-                'starttime':10,
-                'endtime': 0
+                'starttime': '11:50:00',
+                'endtime': ''
             };
             opts = JSON.parse(this.$this.getAttribute("data-param"))
             this.opts = opts || {};
@@ -43,7 +43,6 @@
             },self.opts.interval);
         },
         renderDom:function () {
-            console.log(this.renderTime(this.start));
             this.$this.innerHTML=this.renderTime(this.start)["format"];
         },
         getTimestamp:function(str){
@@ -73,13 +72,7 @@
         renderTime: function(timestamp) {
             var self = this;
             var date, format;
-            if (this.isTimestamp) {
-                date = new Date(timestamp);
-                format = self.timeFormat(self.opts.format, timestamp);
-            } else {
-                date = new Date();
-                format = timestamp / 1e3;
-            }
+            format = self.timeFormat(self.opts.format, timestamp);
             return {
                 'format': format
             };
