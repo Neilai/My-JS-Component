@@ -18,6 +18,7 @@
     export default{
         mounted(){
             let tab=new Tabs(".tabs",{})
+
         }
     }
 </script>

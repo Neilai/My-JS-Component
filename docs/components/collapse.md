@@ -1,5 +1,5 @@
 ---
-title: 手风琴
+title: collapse
 ---
 
 ## 示例

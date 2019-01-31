@@ -4,7 +4,7 @@
  */
 
 class Toast{
-    constructor(arg){
+    constructor(arg={}){
         this.text=arg["text"]||"请输入文字"
         this.delay=arg["delay"]||""
         this.closeButton=arg["closeButton"]||true

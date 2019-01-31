@@ -1,5 +1,5 @@
 ---
-title: 按钮
+title: button
 ---
 ## 图标按钮
 <button-demo></button-demo>
