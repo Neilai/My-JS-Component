@@ -19,7 +19,7 @@ module.exports = {
                     '/components/toast',
                     '/components/cascader',
                     '/components/calendar',
-                    '/components/carousel',
+                    '/components/carousel'
                 ]
             },
         ]

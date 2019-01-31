@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64c743c8-af4c-48f7-a802-8ee4c4c7b386" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/.vuepress/components/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/.vuepress/components/2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/.vuepress/components/3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/.vuepress/components/calendar-demo.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/components/calendar.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/.vuepress/components/carousel-demo.vue" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/components/carousel.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/var.scss" afterPath="$PROJECT_DIR$/src/var.scss" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,33 +21,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="28" column="0" lean-forward="true" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding>
-                <element signature="e#48#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="119" column="28" lean-forward="true" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="var.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/var.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="177" column="35" lean-forward="true" selection-start-line="177" selection-start-column="35" selection-end-line="177" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -60,8 +34,8 @@
       <file leaf-file-name="cascader-demo.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/cascader-demo.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="50" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
+            <state relative-caret-position="270">
+              <caret line="48" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
               <folding>
                 <element signature="e#168#1152#0" expanded="false" />
               </folding>
@@ -69,42 +43,48 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            <state relative-caret-position="210">
+              <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calendar.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/calendar/calendar.js">
+      <file leaf-file-name="carousel.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/carousel/carousel.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="223" column="5" lean-forward="false" selection-start-line="223" selection-start-column="5" selection-end-line="223" selection-end-column="5" />
+            <state relative-caret-position="150">
+              <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="56" />
               <folding>
-                <element signature="n#!!doc;n#Calendar#0" expanded="false" />
-                <element signature="n#!!block;n#constructor#0;n#Calendar#0" expanded="false" />
-                <element signature="n#!!block;n#render#0;n#Calendar#0" expanded="false" />
-                <element signature="n#!!block;n#addEvent#0;n#Calendar#0" expanded="false" />
-                <element signature="n#!!block;n#getDateObj#0;n#Calendar#0" expanded="false" />
-                <element signature="n#!!block;n#getDateInfo#0;n#Calendar#0" expanded="false" />
-                <element signature="e#6175#6860#0" expanded="false" />
-                <element signature="n#!!block;n#getMonthDays#0;n#Calendar#0" expanded="false" />
-                <element signature="n#!!block;n#getData#0;n#Calendar#0" expanded="false" />
-                <element signature="n#!!block;n#value#0;n#Calendar#0" expanded="false" />
-                <marker date="1548776977980" expanded="false" signature="287:952" ph="..." />
-                <marker date="1548776977980" expanded="true" signature="314:745" ph="..." />
-                <marker date="1548776977980" expanded="false" signature="377:381" ph="&lt;" />
-                <marker date="1548776977980" expanded="false" signature="381:385" ph="&lt;" />
-                <marker date="1548776977980" expanded="false" signature="452:456" ph="&lt;" />
-                <marker date="1548776977980" expanded="false" signature="572:576" ph="&gt;" />
-                <marker date="1548776977980" expanded="false" signature="642:646" ph="&gt;" />
-                <marker date="1548776977980" expanded="false" signature="646:650" ph="&gt;" />
-                <marker date="1548776977980" expanded="true" signature="770:897" ph="..." />
-                <marker date="1548776977980" expanded="true" signature="3158:3251" ph="..." />
+                <element signature="n#!!block;n#createBtn#0;n#Carousel#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carousel.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/components/carousel.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="210">
+                <caret line="7" column="65" lean-forward="false" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carousel-demo.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/carousel-demo.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="43" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,7 +128,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="0">
-                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="5" />
+                <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
                 <folding>
                   <marker date="1548941644482" expanded="true" signature="96:1080" ph="[...]" />
                   <marker date="1548941644482" expanded="true" signature="106:462" ph="{&quot;name&quot;: &quot;浙江&quot;...}" />
@@ -244,8 +224,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sticky/sticky.js" />
-        <option value="$PROJECT_DIR$/carousel.html" />
         <option value="$PROJECT_DIR$/carousel.js" />
         <option value="$PROJECT_DIR$/src/carousel/carousel.js" />
         <option value="$PROJECT_DIR$/src/carousel/carousel.scss" />
@@ -291,10 +269,12 @@
         <option value="$PROJECT_DIR$/docs/.vuepress/components/cascader-demo.vue" />
         <option value="$PROJECT_DIR$/docs/components/cascader.md" />
         <option value="$PROJECT_DIR$/src/var.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/docs/components/calendar.md" />
         <option value="$PROJECT_DIR$/docs/.vuepress/components/calendar-demo.vue" />
         <option value="$PROJECT_DIR$/docs/.vuepress/config.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/docs/.vuepress/components/carousel-demo.vue" />
+        <option value="$PROJECT_DIR$/docs/components/carousel.md" />
       </list>
     </option>
   </component>
@@ -409,6 +389,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="nav" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-JS-Component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-JS-Component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="carousel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -667,7 +665,7 @@
       <workItem from="1547525339166" duration="243000" />
       <workItem from="1547644999684" duration="333000" />
       <workItem from="1547728970306" duration="73644000" />
-      <workItem from="1548909466866" duration="26917000" />
+      <workItem from="1548909466866" duration="27525000" />
     </task>
     <task id="LOCAL-00001" summary="添加日历组件">
       <created>1518331534661</created>
@@ -764,7 +762,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="263542000" />
+    <option name="totallyTimeSpent" value="264150000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -845,33 +843,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/countdown.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/countdown.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/carousel/carousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="14" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding>
-            <element signature="n#Carousel#0" expanded="false" />
-            <element signature="n#!!block;n#createBtn#0;n#Carousel#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/countdown/countdown.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1253,47 +1224,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/components/cascader.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="5" />
-            <folding>
-              <marker date="1548941644482" expanded="true" signature="96:1080" ph="[...]" />
-              <marker date="1548941644482" expanded="true" signature="106:462" ph="{&quot;name&quot;: &quot;浙江&quot;...}" />
-              <marker date="1548941644482" expanded="true" signature="154:452" ph="[...]" />
-              <marker date="1548941644482" expanded="true" signature="172:296" ph="{&quot;name&quot;: &quot;杭州&quot;...}" />
-              <marker date="1548941644482" expanded="true" signature="314:438" ph="{&quot;name&quot;: &quot;嘉兴&quot;...}" />
-              <marker date="1548941644482" expanded="true" signature="472:686" ph="{&quot;name&quot;: &quot;福建&quot;...}" />
-              <marker date="1548941644482" expanded="true" signature="520:676" ph="[...]" />
-              <marker date="1548941644482" expanded="true" signature="538:662" ph="{&quot;name&quot;: &quot;福州&quot;...}" />
-              <marker date="1548941644482" expanded="true" signature="696:1074" ph="{&quot;name&quot;: &quot;安徽&quot;...}" />
-              <marker date="1548941644482" expanded="true" signature="744:1064" ph="[...]" />
-              <marker date="1548941644482" expanded="true" signature="762:1050" ph="{&quot;name&quot;: &quot;合肥&quot;...}" />
-              <marker date="1548941644482" expanded="true" signature="826:1032" ph="[...]" />
-              <marker date="1548941644482" expanded="true" signature="852:918" ph="{&quot;name&quot;: &quot;瑶海&quot;...}" />
-              <marker date="1548941644482" expanded="true" signature="944:1010" ph="{&quot;name&quot;: &quot;庐阳&quot;...}" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/var.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/cascader-demo.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="50" selection-end-column="5" />
-          <folding>
-            <element signature="e#168#1152#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1334,14 +1269,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="119" column="28" lean-forward="true" selection-start-line="119" selection-start-column="28" selection-end-line="119" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/components/calendar.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1363,9 +1290,84 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="21" column="41" lean-forward="false" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        <state relative-caret-position="210">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/components/cascader.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <folding>
+              <marker date="1548941644482" expanded="true" signature="96:1080" ph="[...]" />
+              <marker date="1548941644482" expanded="true" signature="106:462" ph="{&quot;name&quot;: &quot;浙江&quot;...}" />
+              <marker date="1548941644482" expanded="true" signature="154:452" ph="[...]" />
+              <marker date="1548941644482" expanded="true" signature="172:296" ph="{&quot;name&quot;: &quot;杭州&quot;...}" />
+              <marker date="1548941644482" expanded="true" signature="314:438" ph="{&quot;name&quot;: &quot;嘉兴&quot;...}" />
+              <marker date="1548941644482" expanded="true" signature="472:686" ph="{&quot;name&quot;: &quot;福建&quot;...}" />
+              <marker date="1548941644482" expanded="true" signature="520:676" ph="[...]" />
+              <marker date="1548941644482" expanded="true" signature="538:662" ph="{&quot;name&quot;: &quot;福州&quot;...}" />
+              <marker date="1548941644482" expanded="true" signature="696:1074" ph="{&quot;name&quot;: &quot;安徽&quot;...}" />
+              <marker date="1548941644482" expanded="true" signature="744:1064" ph="[...]" />
+              <marker date="1548941644482" expanded="true" signature="762:1050" ph="{&quot;name&quot;: &quot;合肥&quot;...}" />
+              <marker date="1548941644482" expanded="true" signature="826:1032" ph="[...]" />
+              <marker date="1548941644482" expanded="true" signature="852:918" ph="{&quot;name&quot;: &quot;瑶海&quot;...}" />
+              <marker date="1548941644482" expanded="true" signature="944:1010" ph="{&quot;name&quot;: &quot;庐阳&quot;...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/carousel-demo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/carousel/carousel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="56" lean-forward="false" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="56" />
+          <folding>
+            <element signature="n#!!block;n#createBtn#0;n#Carousel#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="177" column="35" lean-forward="true" selection-start-line="177" selection-start-column="35" selection-end-line="177" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/components/cascader-demo.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="48" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <element signature="e#168#1152#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/components/carousel.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="210">
+            <caret line="7" column="65" lean-forward="false" selection-start-line="7" selection-start-column="65" selection-end-line="7" selection-end-column="65" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
