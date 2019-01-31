@@ -1,25 +1,27 @@
+@import "../var";
 @keyframes spin {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
-button.magic {
-  font-size: var(--font-size);
-  height: var(--button-height);
-  padding: 0 0.8em;
-  border-radius: var(--border-radius);
-  border: 1px solid var(--border-color);
-  background: var(--button-bg);
+button{
+  cursor: pointer;
+  font-size: $font-size;
+  height: $button-height;
+  padding: 0 1em;
+  border-radius: $border-radius;
+  border: 1px solid $border-color;
+  background: $button-bg;
   display: inline-flex; justify-content: center; align-items: center;
   vertical-align: middle;
-  &:hover { border-color: var(--border-color-hover); }
-  &:active { background-color: var(--button-active-bg); }
+  &:hover { border-color:  $border-color-hover; }
+  &:active { background-color: $button-active-bg; }
   &:focus { outline: none; }
   > .icon { width:1em;height:1em;margin: 0  .2em ; }
   .loading {
     animation: spin 2s infinite linear;
   }
 }
-.magic.button-group {
+.button-group {
   display: inline-flex;
   vertical-align: middle;
   > button {
@@ -28,12 +30,12 @@ button.magic {
       margin-left: -1px;
     }
     &:first-child {
-      border-top-left-radius: var(--border-radius);
-      border-bottom-left-radius: var(--border-radius);
+      border-top-left-radius: $border-radius;
+      border-bottom-left-radius:$border-radius;
     }
     &:last-child {
-      border-top-right-radius: var(--border-radius);
-      border-bottom-right-radius: var(--border-radius);
+      border-top-right-radius: $border-radius;
+      border-bottom-right-radius: $border-radius;
     }
     &:hover {
       position: relative;

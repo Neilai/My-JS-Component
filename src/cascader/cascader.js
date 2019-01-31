@@ -4,7 +4,7 @@
  */
 import '../svg.js'
 class Cascader{
-    constructor(selector,arg){
+    constructor(selector,arg={}){
         this.$ele=document.querySelector(selector)
         this.source=arg["source"]
         this.height=arg["height"]||200

@@ -4,7 +4,7 @@
  */
 
 class Popover{
-    constructor(selector,arg){
+    constructor(selector,arg={}){
         this.$trigger=document.querySelector(selector)
         this.position=arg["position"]||"bottom"
         this.action=arg["action"]||"hover"

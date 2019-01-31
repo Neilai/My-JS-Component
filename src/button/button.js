@@ -4,7 +4,7 @@
  */
 import "../svg.js"
 class Button{
-    constructor(selector,arg){
+    constructor(selector,arg={}){
         this.ele=document.querySelector(selector)
         this.icon=arg["icon"]||""
         this.position=arg["position"]||"right"

@@ -1,0 +1,60 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add -D vuepress
+
+PATH: 
+  C:\Users\Notebook\bin;D:\git\Git\mingw32\bin;D:\git\Git\usr\local\bin;D:\git\Git\usr\bin;D:\git\Git\usr\bin;D:\git\Git\mingw32\bin;D:\git\Git\usr\bin;C:\Users\Notebook\bin;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\Flash Magic;D:\pythonxy\SciTE-3.3.2-3;D:\pythonxy\console;C:\MinGW32-xy\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Redis;C:\Program Files\MySQL\MySQL Utilities 1.6;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;D:\QT\Tools\QtCreator\bin;D:\git\Git\cmd;C:\Program Files\Java\jdk1.8.0_144\bin;D:\opencv\opencv\build\x64\vc14\bin;C:\MinGW\bin;D:\nvm\nvm;C:\Program Files\nodejs;C:\Users\Notebook\AppData\Local\Android\sdk\tools\bin;C:\Users\Notebook\AppData\Local\Android\sdk\tools\apktool;C:\Program Files\010 Editor;D:\nvm\nvm\v8.9.2\node_modules;D:\python3.6-64\Scripts;C:\Program Files (x86)\Yarn\bin;C:\Users\Notebook\AppData\Local\Programs\Python\Python36-32\Scripts;C:\Users\Notebook\AppData\Local\Programs\Python\Python36-32;C:\Python27,C;D:\git\Git\Program Files (x86)\Mozilla Firefox,C;D:\git\Git\Program Files (x86)\Google\Chrome\,C;D:\git\Git\Program Files\Redis\,C;D:\git\Git\ProgramData\Microsoft\Windows\Start Menu\Programs\MySQL,C;D:\git\Git\Program Files\MySQL;C:\Users\Notebook\AppData\Local\Programs\Fiddler;C:\Users\Notebook\AppData\Roaming\npm;C:\Users\Notebook\AppData\Local\GitHubDesktop\bin;C:\Users\Notebook\AppData\Local\Android\sdk\platform-tools;C:\Users\Notebook\AppData\Local\Android\sdk\tools;D:\redis;C:\Users\Notebook\AppData\Local\Microsoft\WindowsApps;D:\nvm\nvm;C:\Program Files\nodejs;C:\Program Files\Wireshark;C:\Program Files\MongoDB\Server\3.6\bin;D:\nvm\nvm\v8.9.2\node_modules;C:\Users\Notebook\AppData\Local\Yarn\bin;D:\git\Git\usr\bin\vendor_perl;D:\git\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.9.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\My-JS-Component\node_modules\node-sass\vendor\win32-x64-57\binding.node'
+
+npm manifest: 
+  {
+    "name": "n-ui",
+    "version": "0.0.1",
+    "description": "Neil's js ui",
+    "main": "index.js",
+    "scripts": {
+      "dev": "webpack-dev-server --hot --open --inline",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Neilai/My-JS-Component.git"
+    },
+    "keywords": [
+      "js"
+    ],
+    "author": "Neil",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Neilai/My-JS-Component/issues"
+    },
+    "homepage": "https://github.com/Neilai/My-JS-Component#readme",
+    "devDependencies": {
+      "babel-core": "^6.26.3",
+      "babel-loader": "^7.1.5",
+      "babel-preset-es2015": "^6.24.1",
+      "css-loader": "^1.0.0",
+      "node-sass": "^4.9.3",
+      "raw-loader": "^0.5.1",
+      "sass-loader": "^7.1.0",
+      "style-loader": "^0.22.1",
+      "webpack": "^4.15.1",
+      "webpack-dev-server": "^3.1.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

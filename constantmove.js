@@ -8,7 +8,7 @@ function constantMove(obj, json, time ,fn) {
     var speed ={};
 
     for(var attr in json){
-        speed[attr]=(parseInt(json[attr])-parseInt(getStyle(obj,attr)))/20;
+        speed[attr]=(parseInt(json[attr])-parseInt(window.getComputedStyle(obj,attr)))/20;
     }
 
     obj.timer = setInterval(function () {
@@ -16,9 +16,9 @@ function constantMove(obj, json, time ,fn) {
         for (var attr in json) {//遍历json
             var icur = null;
             if (attr == 'opacity') {
-                icur = Math.ceil(parseFloat(getStyle(obj, attr)) * 100);
+                icur = Math.ceil(parseFloat(window.getComputedStyle(obj, attr)) * 100);
             } else {
-                icur = parseInt(getStyle(obj, attr));
+                icur = parseInt(window.getComputedStyle(obj, attr));
             }
             if (attr == 'opacity') {
                 obj.style.filter = 'alpha(opacity:' + (icur + speed[attr]) + ')';

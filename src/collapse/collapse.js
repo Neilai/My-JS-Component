@@ -4,29 +4,31 @@
  */
 
 class Collapse{
-    constructor(selector,arg){
+    constructor(selector,arg={"single":false}){
         this.$ele=document.querySelector(selector)
         this.$collapseItems=this.$ele.querySelectorAll(".collapseItem")
         this.open=[0]
-        this.single=arg["single"]||false
+        this.height=[]
+        this.single=arg["single"]
         this.addEvent()
         this.updateStyle()
     }
     updateStyle(){
+        console.log(this.height);
         this.$collapseItems.forEach((item,index)=>{
                if(this.open.includes(index)){
-                   item.querySelector(".content").style.display="block"
+                   item.querySelector(".content").style.height=this.height[index]
                }else{
-                   item.querySelector(".content").style.display="none"
+                   item.querySelector(".content").style.height="0"
                }
         })
     }
     addEvent(){
-        console.log(this.$collapseItems);
         this.$collapseItems.forEach((item,index)=>{
+            this.height.push(window.getComputedStyle(item.querySelector(".content"))["height"])
             item.querySelector(".title").addEventListener("click",()=>{
-                if(this.open.includes(index)){
-                    this.open.splice(index,1)
+                if(this.open.includes(index)) {
+                    this.open.splice(this.open.indexOf(index),1)
                 }else if(!this.single){
                     this.open.push(index)
                 }else{
