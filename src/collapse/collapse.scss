@@ -28,7 +28,7 @@ $border-radius: 4px;
         border-bottom-left-radius: $border-radius;
         border-bottom-right-radius: $border-radius; }
     }
-    > .content {transition: all 1s; overflow: hidden}
+    > .content {transition: all 0.5s linear;  overflow: hidden}
   }
 }
 
