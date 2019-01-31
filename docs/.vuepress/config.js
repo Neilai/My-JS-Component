@@ -20,7 +20,8 @@ module.exports = {
                     '/components/cascader',
                     '/components/calendar',
                     '/components/carousel',
-                    '/components/sticky'
+                    '/components/sticky',
+                    '/components/countdown'
                 ]
             },
         ]
