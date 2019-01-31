@@ -2,8 +2,7 @@
 title: button
 ---
 ## 图标按钮
-<button-demo></button-demo>
-
+    <ClientOnly><button-demo></button-demo></ClientOnly>
 #### 源码
 
 ```html
@@ -24,7 +23,7 @@ let button3=new Button(".button3",{"icon":"setting"})
 
 
 
-<button-group></button-group>
+<ClientOnly><button-group></button-group></ClientOnly>
 
 #### 源码
 
@@ -40,7 +39,7 @@ let button3=new Button(".button3",{"icon":"setting"})
 
 
 
-<button-toggle></button-toggle>
+<ClientOnly><button-toggle></button-toggle></ClientOnly>
 
 #### 源码 
 

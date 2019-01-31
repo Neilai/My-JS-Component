@@ -3,7 +3,7 @@ title: countdown
 ---
 
 ## 示例
-<countdown-demo></countdown-demo>
+<ClientOnly><countdown-demo></countdown-demo></ClientOnly>
 
 ## 源码
 ```javascript

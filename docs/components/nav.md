@@ -2,7 +2,7 @@
 title: nav
 ---
 ## 示例
-<nav-demo></nav-demo>
+<ClientOnly><nav-demo></nav-demo></ClientOnly>
 ## 源码
 ```html
     <div  class="nav">

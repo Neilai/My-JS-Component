@@ -2,7 +2,7 @@
 title: toast
 ---
 ## 示例
-<toast-demo></toast-demo>
+<ClientOnly><toast-demo></toast-demo></ClientOnly>
 ## 源码
 ```javascript
  var toast=new Toast({"position":"middle","text":"我是toast","delay":2})

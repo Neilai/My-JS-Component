@@ -2,7 +2,7 @@
 title: tab
 ---
 ## 示例
-<tabs-demo></tabs-demo>
+<ClientOnly><tabs-demo></tabs-demo></ClientOnly>
 ## 源码
 ```html
 <div class="tabs">

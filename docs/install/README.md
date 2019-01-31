@@ -1,4 +1,11 @@
 ---
-title: 安装
+title: 使用
 ---
-#安装
+## 下载
+```javascript
+git clone git@github.com:Neilai/My-JS-Component.git
+```
+## 在html引入
+```javascript
+<script src="./dst/magicUI.js"></script>
+```

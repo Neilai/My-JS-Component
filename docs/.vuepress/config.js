@@ -3,8 +3,9 @@
  * 2019-01-31 17:15
  */
 module.exports = {
-    title: 'Hello VuePrs',
-    description: 'Just playing around',
+    title: 'magic UI',
+    base:'My-JS-Component',
+    description: '一个简洁的原生JS组件库',
     themeConfig:{
         sidebar: [
             '/install/',

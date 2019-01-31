@@ -2,7 +2,7 @@
 title: calendar
 ---
 ## 示例
-<calendar-demo></calendar-demo>
+<ClientOnly><calendar-demo></calendar-demo></ClientOnly>
 ## 源码
 
 ```javascript

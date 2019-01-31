@@ -2,7 +2,7 @@
 title: popover
 ---
 ## 示例
-<popover-demo></popover-demo>
+<ClientOnly><popover-demo></popover-demo></ClientOnly>
 ## 源码
 ```html
     <button id="a">悬浮我</button>

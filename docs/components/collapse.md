@@ -3,7 +3,7 @@ title: collapse
 ---
 
 ## 示例
-<collapse-demo></collapse-demo>
+<ClientOnly><collapse-demo></collapse-demo></ClientOnly>
 
 ## 源码
 

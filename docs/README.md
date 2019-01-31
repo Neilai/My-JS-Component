@@ -1,1 +1,2 @@
- # Hello VuePress!
+## 说明
+magic UI是一个简洁的原生JS组件库，面向源码阅读

@@ -2,7 +2,7 @@
 title: cascader
 ---
 ## 示例
-<cascader-demo></cascader-demo>
+<ClientOnly><cascader-demo></cascader-demo></ClientOnly>
 ## 源码
 ```javascript
  let source = [
