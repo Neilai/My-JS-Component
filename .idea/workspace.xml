@@ -2,24 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="64c743c8-af4c-48f7-a802-8ee4c4c7b386" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/deploy.sh" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yarn-error.log" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/css/1.styles.49166b5c.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/img/1.d037690e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/img/2.c5d0677b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/img/3.e1ca3d19.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/img/search.83621669.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/0.ad52b7b0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/10.a4b6fd10.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/11.3d9ea8ae.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/12.17704e51.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/13.d4464cd3.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/14.3aa28059.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/15.8fc60bef.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/16.3884460c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/17.c2e2ad3b.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/18.a6b2dd80.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/19.75d7e4c1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/20.ebef2d5f.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/21.5142dfcc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/22.7a5c1df6.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/23.9cdf861d.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/24.994227ab.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/25.75737703.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/26.64cc9ca5.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/27.c40b495c.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/28.7c7c2220.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/29.91f37124.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/3.0a092143.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/30.ce512dfc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/31.f9536f36.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/4.45901720.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/5.1eb8fa66.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/6.04cd54e4.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/7.c1cfe493.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/8.00cae0d2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/9.d7d79856.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/assets/js/app.b4cc8e5e.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/components/button.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/components/calendar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/components/carousel.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/components/cascader.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/components/collapse.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/components/countdown.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/components/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/components/nav.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/components/popover.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/components/sticky.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/components/tabs.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/components/toast.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/docs/.vuepress/dist/install/index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy.sh" afterPath="$PROJECT_DIR$/deploy.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/.vuepress/config.js" afterPath="$PROJECT_DIR$/docs/.vuepress/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/README.md" afterPath="$PROJECT_DIR$/docs/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/components/button.md" afterPath="$PROJECT_DIR$/docs/components/button.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/components/calendar.md" afterPath="$PROJECT_DIR$/docs/components/calendar.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/components/carousel.md" afterPath="$PROJECT_DIR$/docs/components/carousel.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/components/cascader.md" afterPath="$PROJECT_DIR$/docs/components/cascader.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/components/collapse.md" afterPath="$PROJECT_DIR$/docs/components/collapse.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/components/countdown.md" afterPath="$PROJECT_DIR$/docs/components/countdown.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/components/nav.md" afterPath="$PROJECT_DIR$/docs/components/nav.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/components/popover.md" afterPath="$PROJECT_DIR$/docs/components/popover.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/components/sticky.md" afterPath="$PROJECT_DIR$/docs/components/sticky.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/components/tabs.md" afterPath="$PROJECT_DIR$/docs/components/tabs.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/components/toast.md" afterPath="$PROJECT_DIR$/docs/components/toast.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/install/README.md" afterPath="$PROJECT_DIR$/docs/install/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,60 +72,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="cascader.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/components/cascader.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-                <folding>
-                  <marker date="1548945852799" expanded="true" signature="121:1105" ph="[...]" />
-                  <marker date="1548945852799" expanded="true" signature="131:487" ph="{&quot;name&quot;: &quot;浙江&quot;...}" />
-                  <marker date="1548945852799" expanded="true" signature="179:477" ph="[...]" />
-                  <marker date="1548945852799" expanded="true" signature="197:321" ph="{&quot;name&quot;: &quot;杭州&quot;...}" />
-                  <marker date="1548945852799" expanded="true" signature="339:463" ph="{&quot;name&quot;: &quot;嘉兴&quot;...}" />
-                  <marker date="1548945852799" expanded="true" signature="497:711" ph="{&quot;name&quot;: &quot;福建&quot;...}" />
-                  <marker date="1548945852799" expanded="true" signature="545:701" ph="[...]" />
-                  <marker date="1548945852799" expanded="true" signature="563:687" ph="{&quot;name&quot;: &quot;福州&quot;...}" />
-                  <marker date="1548945852799" expanded="true" signature="721:1099" ph="{&quot;name&quot;: &quot;安徽&quot;...}" />
-                  <marker date="1548945852799" expanded="true" signature="769:1089" ph="[...]" />
-                  <marker date="1548945852799" expanded="true" signature="787:1075" ph="{&quot;name&quot;: &quot;合肥&quot;...}" />
-                  <marker date="1548945852799" expanded="true" signature="851:1057" ph="[...]" />
-                  <marker date="1548945852799" expanded="true" signature="877:943" ph="{&quot;name&quot;: &quot;瑶海&quot;...}" />
-                  <marker date="1548945852799" expanded="true" signature="969:1035" ph="{&quot;name&quot;: &quot;庐阳&quot;...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="collapse.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/components/collapse.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="countdown.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/components/countdown.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="nav.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/components/nav.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -168,19 +152,60 @@
       <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="180">
+              <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deploy.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="deploy.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/deploy.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="21" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="150">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/install/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="carousel.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/components/carousel.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="button.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/components/button.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+                <folding>
+                  <marker date="1548947944379" expanded="true" signature="495:638" ph="..." />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -296,9 +321,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/docs/install/README.md" />
         <option value="$PROJECT_DIR$/docs/README.md" />
-        <option value="$PROJECT_DIR$/docs/components/button.md" />
         <option value="$PROJECT_DIR$/docs/components/calendar.md" />
-        <option value="$PROJECT_DIR$/docs/components/carousel.md" />
         <option value="$PROJECT_DIR$/docs/components/cascader.md" />
         <option value="$PROJECT_DIR$/docs/components/collapse.md" />
         <option value="$PROJECT_DIR$/docs/components/countdown.md" />
@@ -309,6 +332,8 @@
         <option value="$PROJECT_DIR$/docs/components/toast.md" />
         <option value="$PROJECT_DIR$/docs/.vuepress/config.js" />
         <option value="$PROJECT_DIR$/deploy.sh" />
+        <option value="$PROJECT_DIR$/docs/components/carousel.md" />
+        <option value="$PROJECT_DIR$/docs/components/button.md" />
       </list>
     </option>
   </component>
@@ -369,6 +394,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-JS-Component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-JS-Component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="install" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-JS-Component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="My-JS-Component" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="docs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -541,7 +602,7 @@
       <workItem from="1547525339166" duration="243000" />
       <workItem from="1547644999684" duration="333000" />
       <workItem from="1547728970306" duration="73644000" />
-      <workItem from="1548909466866" duration="30349000" />
+      <workItem from="1548909466866" duration="32601000" />
     </task>
     <task id="LOCAL-00001" summary="添加日历组件">
       <created>1518331534661</created>
@@ -638,11 +699,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266974000" />
+    <option name="totallyTimeSpent" value="269226000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -651,7 +711,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36273292" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2518558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2518558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Project Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Job Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -719,16 +779,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/magicUI.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/components/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1053,17 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/install/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="90">
-            <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1083,34 +1122,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/components/button.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="379">
-            <caret line="41" column="45" lean-forward="false" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
-            <folding>
-              <marker date="1548945853097" expanded="true" signature="499:642" ph="..." />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/components/calendar.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="111">
-            <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/components/carousel.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
             <caret line="4" column="45" lean-forward="false" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
             <folding />
           </first_editor>
@@ -1235,17 +1250,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/.vuepress/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        <state relative-caret-position="180">
+          <caret line="6" column="27" lean-forward="false" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/.vuepress/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/deploy.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="150">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/install/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="3" column="3" lean-forward="false" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/components/carousel.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/components/button.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="4" column="52" lean-forward="false" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+            <folding>
+              <marker date="1548947944379" expanded="true" signature="495:638" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

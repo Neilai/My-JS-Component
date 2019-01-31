@@ -4,7 +4,7 @@
  */
 module.exports = {
     title: 'magic UI',
-    base:'My-JS-Component',
+    base:'/My-JS-Component/',
     description: '一个简洁的原生JS组件库',
     themeConfig:{
         sidebar: [

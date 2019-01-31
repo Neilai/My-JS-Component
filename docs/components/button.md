@@ -2,7 +2,7 @@
 title: button
 ---
 ## 图标按钮
-    <ClientOnly><button-demo></button-demo></ClientOnly>
+<ClientOnly><button-demo></button-demo></ClientOnly>
 #### 源码
 
 ```html

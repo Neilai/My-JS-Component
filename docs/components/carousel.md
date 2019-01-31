@@ -1,5 +1,5 @@
 ---
-title: cascader
+title: carousel
 ---
 ## 示例
 <ClientOnly><carousel-demo></carousel-demo></ClientOnly>
