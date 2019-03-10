@@ -211,12 +211,13 @@ class Calendar{
         }
         //下月日期
         var last = obj;
-        for (var i = 1; last['week'] + i < 7; i++) {
+        for (var i = 1; last['week'] + i < 7||data.length<42; i++) {
             obj = this.getDateObj(last['year'], last['month'], last['day'] + i);
             var info = this.getDateInfo(obj);
             info['status'] = 'disabled';
             data.push(info);
         }
+
         return data;
     }
     value(){

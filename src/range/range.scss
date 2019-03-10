@@ -1,0 +1,24 @@
+.range {
+  width: 240px;
+  height: 4px;
+  margin-bottom: 15px;
+  border: 1px solid #e2e2e2;
+  position: relative;
+  .value {
+    height: 100%;
+    background: #0064cd;
+  }
+  .handle {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    top: -3px;
+    width: 8px;
+    height: 8px;
+    margin-left: -5px;
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    cursor: default;
+    outline: 0;
+  }
+}

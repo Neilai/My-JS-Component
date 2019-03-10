@@ -3,7 +3,7 @@
  * 2019-01-28 14:44
  */
 class Countdown{
-    constructor(selector,arg={'format': 'hh:mm:ss', 'interval': 1000, 'startTime': '11:50:00', 'endTime': 0}){
+    constructor(selector,arg={'format': 'hh:mm:ss', 'interval': 1000, 'startTime': 10, 'endTime':0}){
         this.$ele=document.querySelector(selector)
         this.start=arg["startTime"]
         this.end=arg["endTime"]
@@ -15,11 +15,9 @@ class Countdown{
             this.start = this.start ? this.getTimestamp(this.start) : (+new Date());
             this.end = this.getTimestamp(this.end);
         } else {
-            console.log("this.end");
             this.start = this.start * 1e3;
             this.end = this.end* 1e3;
         }
-        console.log(this.start);
         this.$ele.innerHTML=this.renderTime(this.start)["format"];
         this.count()
     }

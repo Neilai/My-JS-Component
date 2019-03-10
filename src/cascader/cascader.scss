@@ -1,5 +1,6 @@
 @import "../var";
 .cascader {
+  z-index: 100;
   position: relative;
   cursor: pointer;
   .trigger {

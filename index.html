@@ -111,13 +111,14 @@
 <!--<p>test29</p>-->
 <!--<p>test30</p>-->
 
-<div class="carousel">
-        <img src="1.jpg" class="carousel-slide">
-        <img src="2.jpg" class="carousel-slide">
-        <img src="3.jpg" class="carousel-slide">
-</div>
-<div class="calendar"></div>
-<!--<div class="countdown"></div>-->
+<!--<div class="carousel">-->
+        <!--<img src="1.jpg" class="carousel-slide">-->
+        <!--<img src="2.jpg" class="carousel-slide">-->
+        <!--<img src="3.jpg" class="carousel-slide">-->
+<!--</div>-->
+<!--<div class="calendar"></div>-->
+<div class="countdown"></div>
+<!--<div class="range" ></div>-->
 </body>
 <script>
 
@@ -175,8 +176,10 @@
 //    let x = new Cascader(".cascader", {"source": source})
 //      let x = new Nav(".nav")
 //let x=new Carousel(".carousel")
-    let x=new Calendar(".calendar")
+//    let x=new Calendar(".calendar")
 //let x=new Countdown(".countdown")
+let countdown2= new Countdown(".countdown",{'format': 'hh:mm:ss', 'interval': 1000, 'startTime': "12:00:00", 'endTime':"11:55:55"})
+//let x=new Range(".range")
 </script>
 
 </html>
