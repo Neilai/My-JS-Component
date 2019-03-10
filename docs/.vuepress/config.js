@@ -22,7 +22,8 @@ module.exports = {
                     '/components/calendar',
                     '/components/carousel',
                     '/components/sticky',
-                    '/components/countdown'
+                    '/components/countdown',
+                    '/components/range'
                 ]
             },
         ]

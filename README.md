@@ -21,9 +21,13 @@
 
 - [x] countdown
 
-- [ ] range
+- [x] range
 
 - [ ] scroll
+
+- [ ] tree
+
+- [ ] table
 
 - [ ] 单元测试
 
