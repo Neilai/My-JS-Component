@@ -21,7 +21,7 @@ class Tabs{
     updateStyle(){
         let {width, height, top, left} = this.$tabsItems[this.currentIndex].getBoundingClientRect()
         this.$line.style.width = `${width}px`
-        this.$line.style.left = `${left}px`
+        this.$line.style.left = `${width*this.currentIndex}px`
         this.$tabsItems.forEach((item,index)=>{
             if(index==this.currentIndex){
                 item.classList.add("active")

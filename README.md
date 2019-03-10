@@ -39,7 +39,7 @@
 
 ## 使用
 
-对于这个UI轮子库，我写了较为详细的 [官方文档](https://neilai.github.io/My-JS-Component/)
+对于这个UI轮子库，我写了较为详细的 [官方文档](https://neilai.github.io/My-JS-Component/install)
 
 ## 致谢
 
